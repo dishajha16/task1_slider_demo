@@ -14,6 +14,7 @@ function drag() {
   updateSlider();
 }
 slider.addEventListener("wheel", drag);
+slider.addEventListener("touchmove",drag);
 
 nextButton.addEventListener("click", drag);
 
